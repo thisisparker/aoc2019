@@ -21,7 +21,6 @@ def load_mode(program, mode, parameter):
         return 0
 
 def write_mode(program, mode, parameter, index, value):
-    global relative
     if mode == '0':
             new_index = parameter
     elif mode == '2':
